@@ -1,0 +1,20 @@
+{
+  "name": "marketplace-handoff-job-watch",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "tsx src/handoff_demo.ts",
+    "start": "tsx src/job_result_server.ts",
+    "test": "node --import tsx --test src/marketplace_handoff.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
